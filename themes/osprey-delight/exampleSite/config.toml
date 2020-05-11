@@ -1,21 +1,26 @@
-baseURL = "https://pinelab.nl"
-languageCode = "nl-NL"
-title = "PINELAB.NL"
+title = "Osprey Delight Demo"
+baseURL = "https://example.com"
+languageCode = "en-US"
 theme = "osprey-delight"
+tags = ["personal", "homepage", "portfolio"]
+# canonifyURLS = true
+# googleAnalytics = ""
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+enableEmoji = true
 
 ## Generic theme parameters:
 [Params]
-  author = "Martijn van de Brug"
-  email = "martijn@pinelab.nl"
-  description = "Jouw merk online van begin tot eind."
-  tagline = "Digital creative"
-  logoBig = "/images/logo.png"
+  author = "kdevo"
+  email = ""
+  description = "osprey-delight example site"
+  tagline = "Hi there! Check out this theme."
+  logoBig = "/images/osprey-delight-logo.png"
   # [str] This is the logo that will be shown in the left corner of the nav bar.
   #   Usually, you would like to use something bigger than a favicon - but not too big either.
-  #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting!
+  #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting! 
   logoSmall = "favicon.png"
   favicon = "favicon.png"
-  opengraphImage = "/images/logo.png"
+  opengraphImage = "/images/osprey-delight.png"
   googleTagManager = ""
   # [bool] The following will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html'.
@@ -47,7 +52,7 @@ theme = "osprey-delight"
 [Params.Feat]
   # [bool] Termynal (https://github.com/ines/termynal) is a small JS library for showing a terminal "animation" from within your gallery item.
   #   The library has been stripped-down to a minimum to only have the necessary functionality.
-  useTermynal = false
+  useTermynal = true
   # [bool] Lazy loading of images with lazysizes (SEO-friendly).
   lazyloading = true
   # [str] Use Basin contact form.
@@ -74,12 +79,17 @@ theme = "osprey-delight"
   name = "About"
   url  = "/#about"
   weight = 1
-#[[menu.main]]
-#  name = "Projects"
-#  url  = "/#work"
-#  weight = 2
+[[menu.main]]
+  name = "Work"
+  url  = "/#work"
+  weight = 2
 [[menu.main]]
   name = "Contact"
   url  = "/#contact"
   weight = 3
-
+[[menu.main]]
+  # Use icon here to neatly back reference an external site/blog/whatever:
+  pre = "<i class='icon icon-link-ext'></i>&nbsp;"
+  name = ""
+  url  = "https://pyotek.dev"
+  weight = 4
