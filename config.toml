@@ -9,13 +9,13 @@ theme = "osprey-delight"
   email = "martijn@pinelab.nl"
   description = "Jouw merk online van begin tot eind."
   tagline = "Digital creative"
-  logoBig = "/images/logo.png"
+  logoBig = "/images/pinelab_logo.png"
   # [str] This is the logo that will be shown in the left corner of the nav bar.
   #   Usually, you would like to use something bigger than a favicon - but not too big either.
   #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting!
   logoSmall = "favicon.png"
   favicon = "favicon.png"
-  opengraphImage = "/images/logo.png"
+  opengraphImage = "/images/pinelab_logo.png"
   googleTagManager = ""
   # [bool] The following will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html'.
