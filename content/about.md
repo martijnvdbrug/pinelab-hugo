@@ -5,6 +5,5 @@ draft: false
 ---
 
 Pinelab zorgt ervoor dat jou merk op de juiste manier online staat, van begin tot eind. 
-We designen jou website zodat deze de doelgroep van je bedrijf aanspreekt.
- Je website is razendsnel, goed vindbaar op Google en je kan zelf fotos toevoegen en teksten wijzigen.
-
+We designen je website, zodat deze de doelgroep van je bedrijf aanspreekt.
+ Je website is snel, goed vindbaar op Google en je kan zelf fotos toevoegen en teksten wijzigen.
