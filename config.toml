@@ -25,22 +25,23 @@ theme = "osprey-delight"
   copyright = true
   # [bool] Your credit is much appreciated. It will be displayed in a small way in your footer.
   #   Anyways, of course you're free to uncomment the following line to disable the credit.
-  # credit = false
+  credit = false
+
 
 ## Social media links in footer:
 [Params.Social]
   # [str] Link to your Twitter.
-  twitter = ""
+  # twitter = ""
   # [str] Link to your LinkedIn.
-  linkedin = ""
+  # linkedin = ""
   # [str] Link to your GitHub.
-  github = "https://github.com/kdevo/osprey-delight"
+  # github = "https://github.com/kdevo/osprey-delight"
   # [str] Link to your Facebook.
   # facebook = ""
   # [str] Link to your Instagram.
   # instagram = ""
   # [str] Link to your StackOverflow.
-  stackoverflow = ""
+  # stackoverflow = ""
 
 
 ## Theme features:
@@ -71,7 +72,7 @@ theme = "osprey-delight"
 
 
 [[menu.main]]
-  name = "About"
+  name = "Pinelab.nl"
   url  = "/#about"
   weight = 1
 #[[menu.main]]

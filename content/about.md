@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Over Pinelab.nl"
 date: 2020-05-11T14:10:39+02:00
 draft: false
 ---
