@@ -1,4 +1,4 @@
-baseURL = "https://pinelab-hugo.netlify.app/"
+baseURL = "https://pinelab.nl/"
 languageCode = "nl-NL"
 title = "PINELAB.NL"
 theme = "osprey-delight"
